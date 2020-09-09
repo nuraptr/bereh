@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BEREH</string>
+    <string name="title_activity_koleksiii">Koleksiii</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo lorem justo. Vivamus ut dui sit amet ante cursus consectetur eu ut massa. Donec consectetur tortor ac metus fermentum posuere. Phasellus molestie vestibulum sem sit amet pretium. Phasellus et sodales elit, et vehicula massa. Vivamus sed turpis augue. Nulla vel ligula justo. Nam gravida ornare euismod. Fusce ac imperdiet neque. Ut eget justo lectus. Praesent vehicula at felis ac ullamcorper. Ut et sollicitudin nunc, id consequat augue. Donec sed massa feugiat, cursus justo et, bibendum massa.
+
+Suspendisse sit amet mi dolor. Vestibulum sed tortor pretium, elementum enim sed, malesuada quam. Maecenas id rutrum ipsum. Curabitur vehicula dolor vitae libero ultricies aliquam. Ut molestie metus euismod, dictum nunc quis, malesuada felis. Etiam orci orci, iaculis eget ornare eu, semper et justo.
+
+</string>
+
+</resources>

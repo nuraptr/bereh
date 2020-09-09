@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.unsyiah.android.bereh"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".KoleksiActivity"
+            android:label="Koleksi Resep"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation=""/>
+        <activity
+            android:name=".DaerahActivity"
+            android:label="Daerah"
+            android:parentActivityName=".KoleksiActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResepActivity"
+            android:label="Resep"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".ArsipActivity"
+            android:label="Arsip"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".AkunActivity"
+            android:label="Akun"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".TempatActivity"
+            android:label="Tempat" />
+    </application>
+
+</manifest>
