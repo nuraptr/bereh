@@ -1,2 +1,4 @@
-# BEREH
-## Aplikasi Belajar Resep Aceh
+## BEREH
+### Aplikasi Belajar Resep Aceh
+
+![Screenshot](BEREH.jpg)
